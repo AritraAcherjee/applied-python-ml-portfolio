@@ -10,7 +10,7 @@ from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 
 
 # Load the historical demand data from the project CSV
-df = pd.read_csv("Historical Product Demand.csv")
+data = pd.read_csv("Historical Product Demand.csv")
 
 
 # Inspect the original data before any cleaning or transformation
